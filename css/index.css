@@ -1,0 +1,45 @@
+.banner{background: url("../images/banner.jpg") no-repeat center;height:300px;margin:10px auto;width:100%;font-size: 16px;font-family: 微软雅黑 Arial Helvetica sans-serif;}
+.texts{line-height: 36px;padding:90px 0 0 40px;text-shadow: 1px 1px rgba(255,255,255,0.3);}
+.texts p{-webkit-transition: all 1s;-moz-transition: all 1s;transition: all 1s;-webkit-transform: translate(60px);-moz-transform: translate(60px);-o-transform: translate(60px);-ms-transform: translate(60px);transform: translate(60px);}
+.texts p:hover{padding-left: 20px;}
+/*文章列表*/
+.blog_list h2{border-bottom:darkslategray 2px solid;margin:0 8px 20px 8px;height: 26px;overflow: hidden;line-height: 28px;font-size: 18px;font-family: 微软雅黑 Arial, Helvetica, sans-serif;letter-spacing: 2px; }
+.blog_list h2 p{background: darkslategray;width: 180px;color: #fff;text-align: center;box-shadow: #999 4px 5px 1px;}
+.blog_list h2 p span{color: #0b0b0b;}
+.blog{margin: 0 20px 20px 20px;position: relative;}
+.blog h3{font-size: 16px;font-weight: bold;margin-bottom: 15px;transition: all .5s;}
+.blog h3:hover{text-decoration: underline;}
+.blog figure{float:left;width: 25%;overflow: hidden;}
+.blog figure img{width: 100%;margin: auto;-moz-transition: all .5s;-webkit-transition: all .5s;-o-transition: all .5s;transition: all .5s;}
+.blog figure:hover img{-moz-transform: scale(1.1);-webkit-transform: scale(1.1);-o-transform: scale(1.1);-ms-transform: scale(1.1);}
+.blog ul{float: right;line-height: 20px;width: 72%;color: darkslategray;}
+.blog ul:hover{cursor: pointer;}
+.author{overflow: hidden;clear: both;margin:10px 0 0 0;display: inline-block;line-height: 26px;height:26px;color:grey;background: lightgray;width: 100%;}
+.author span{margin:0 10px;}
+.author span a {color:lightseagreen;}
+a.read_more{background: orangered;color:#fff;padding: 5px 10px;float: right;margin:20px 0 0 0;}
+/*aside信息*/
+.avatar{margin: 10px auto;width: 160px;height: 160px;border-radius: 100%;overflow: hidden;}
+.avatar a {display:block;padding-top:100px;width: 160px;background: url("../images/photos.png") no-repeat;background-size: 160px 160px;}
+.avatar a span{display: block;margin-top: 63px;padding-top: 8px;width:160px;height: 55px;text-align: center;line-height: 20px;color: #fff;background:rgba(0,0,0,.5);-webkit-transition: margin-top .2s ease-in-out;-moz-transition: margin-top .2s ease-in-out;-o-transition: margin-top .2s ease-in-out;transition: margin-top .2s ease-in-out; }
+.avatar a:hover span{display: block;margin-top: 0;}
+.motto{background: orangered;padding: 40px 20px;color: #fff;text-shadow: 1px 1px rgba(0,0,0,.3);}
+.motto h1{font-size: 16px;line-height: 40px;font-weight: bold;}
+.about_data{margin: 10px 10px;color:#fff;line-height: 26px;}
+.about_data p{display:block;padding-left: 25px;}
+.about_data p:hover{background: darkslategray}
+/*百度分享按钮不显示*/
+.bdsharebuttonbox{margin:5px;clear: both;}
+/*热门推荐列表*/
+.new_blog h2,.links h2{font-size: 16px;font-family: 微软雅黑 Arial, Helvetica, sans-serif;color:#fff;}
+.new_blog h2 p,.links h2 p{height: 40px;line-height: 40px;width:100px;padding:0 0 0 30px;border-radius: 0 20px 20px 0;text-shadow: rgba(0,0,0,.65) 1px 1px;}
+.blog_1{background: lightseagreen;}
+.blog_2{background:orangered;}
+.new_blog ul{margin: 20px 0 20px 20px}
+.new_blog ul li a,.links ul li a{color: darkgray;}
+.new_blog ul li a:hover,.links ul li a:hover{text-decoration: underline;color: white;}
+.new_blog ul li{height: 25px;line-height: 25px;clear: both;padding-left: 15px;overflow: hidden;background: url("../images/li.jpg") no-repeat left center;}
+/*links*/
+.links h2 p{background: dodgerblue;}
+.links ul{margin: 20px 0;}
+.links ul li {height: 30px;line-height: 30px;text-align: center;border-bottom: #333 1px dashed;margin:0 40px;}
